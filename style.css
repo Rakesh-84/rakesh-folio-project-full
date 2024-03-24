@@ -1,0 +1,282 @@
+/* Common CSS */
+*{margin: 0;
+padding: 0;
+border:0;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;
+}
+
+.container{display: flex;}
+
+.titlecommon{align-content: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  line-height: 21pt;
+  height: 250px;
+  padding-top:40px ;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* common CSS */
+/* Menu Bar Css start */
+#nav{width: 1280px;
+height: 61px;
+background-color: #02918c;
+justify-content: space-between;
+align-items: center;}
+
+#logo{margin-left: 66px;}
+
+.menu{color:white ;
+  width: 50%;
+  margin-right: 44px;}
+
+.menu ul{list-style: none;
+    justify-content: space-around;
+}
+.menu ul li:hover{color: #cfc91d;
+    transition:2s;}
+/* Menu Bar CSS End */
+/* Hero Css start */
+.hero{width: 1280px;
+height: 729px;
+background-image: url(./hero.png);
+background-repeat: no-repeat;
+background-size: cover;}
+#heroitem{text-align: center;
+  color: #ffffff;
+  height: 100%;
+   padding-top: 210px;}
+#heroitem h1{text-transform: uppercase;
+font-weight: 800;
+font-size: 68pt;
+}
+#heroitem h1{line-height: 75pt;
+letter-spacing: 30px;
+font-size: 45pt;}
+#heroitem h2{ font-size: 22pt;
+line-height: 25pt;}
+#heroitem p{font-size: 16pt;
+  line-height: 12pt;}
+  #heroitem img{padding: 44px;}
+  #heroitem a{display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    background-color: #cfc91d;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    font-size: 11pt;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-weight: 800;}
+
+#heroitem a:hover{background-color: chartreuse;}
+/* Hero section end */
+/* About Section CSS Start */
+.sectionheading{text-align: center;
+padding-top: 98px;
+height: 450px;
+width: 1280px;
+padding-left: 100px;
+padding-right: 100px;
+margin-left: 55px;
+margin-right: 55px;
+}
+
+
+#About h1{font-size: 46pt;
+  color: #02918c;
+  font-weight: 800;
+}
+#About p{line-height: 41px;
+font-size: 16pt;}
+#About p b{font-size: 23pt;}
+
+#title{width: 1280px;
+
+}
+
+#title1{border-right: 1px #7e8287 solid;}
+#title1 h4{line-height: 50px;}
+#title1 p{font-size: 11pt;
+line-height: 21pt;}
+#title2{  border-right: 1px #7e8287 solid;}
+#title2 h4{line-height: 50px;}
+#title2 p{font-size: 11pt;
+  line-height: 21pt;}
+#title3{  border-right: 1px #7e8287 solid;}  
+#title3 h4{line-height: 50px;}
+#title3 p{font-size: 11pt;
+  line-height: 21pt;}
+#title4 h4{line-height: 50px;}
+#title4 p{font-size: 11pt;
+  line-height: 21pt;}
+/* About Section end */
+/* Service section start */
+#services{background-image: url(./service-bacground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 1280px;
+  }
+  #service1 h1{font-size: 46pt;
+    color: #02918c;
+    font-weight: 800;
+  }
+  #service1 p{line-height: 41px;
+    font-size: 16pt;
+  padding-bottom: 58px;}
+
+#service1{padding-top: 76px;
+  width: 50%;
+  height: 800px;
+ }
+#stitle{  padding-top: 62px;
+  }  
+#stitle1 p{line-height: 21px;
+font-size: 11pt;
+padding-right: 160px;
+}   
+#stitle1 h4{font-size: 16pt;
+line-height: 23pt;}
+
+  /* Service section CSS End */
+  /* My work section start */
+  #work{padding-top: 76px;
+    width: 1280px;
+    height: 450px;
+    margin-left: px;
+    margin-right: px;
+    height: 800px;
+     position: relative; }
+  #work1{
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+#work1 p{line-height: 51px;
+  font-size: 11pt;
+  padding-right: 50px;
+  text-align: center;}   
+
+  #work1 h1{font-size: 46pt;
+    color: #02918c;
+    font-weight: 800;
+    text-align: center;
+  }
+  #work1 h4{text-align: center;
+    line-height: 21px;
+    font-size: 11pt;
+  text-decoration: none;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 97px;}
+
+  #workrow1{display: flex;}
+  #commonwork{width:320px ;
+    height:240px ;
+    background-size: cover;
+    background-position: center;
+    position: relative;}
+
+    #work #workrow1 #commonwork .overlay{position: absolute;
+      background-color: #057f7f9c;
+      color: #ffffff;
+      left: 28px;
+      right: 29px;
+      top: 20px;
+      bottom: 20px;
+      padding: 20px;
+      display:flex ;
+      flex-wrap:wrap ;
+      justify-content: center ;
+      align-items:center ;
+      flex-direction:column ;
+      text-align: center;
+      transition: 0.5s;
+      transform: scale(0);
+      }
+      #work #workrow1 #commonwork:hover .overlay  { transform: scale(1);}
+    
+/* My work CSS end
+Contact me css start */
+#contact{padding-top: 76px;
+  width: 1280px;
+   height: 335px;
+  }
+
+  #contact1 p{line-height: 51px;
+    font-size: 11pt;
+    padding-right: 50px;
+    text-align: center;    }   
+  
+    #contact1 h1{font-size: 46pt;
+      color: #02918c;
+      font-weight: 800;
+      text-align: center;
+    }
+
+#contact h4{text-align: center;
+  line-height: 21px;
+  font-size: 11pt;
+text-decoration: none;
+padding-left: 300px;
+padding-right: 300px;
+padding-bottom: 97px;}
+/* Contact me Css end */
+/* Footer Css Start */
+#footer{
+    width: 1280px;
+  margin-left: px;
+  margin-right: px;
+  height: 335px;
+  background-color: black;
+color: #ffffff;
+text-transform: uppercase;
+font-size: 16pt;
+line-height: 41pt;
+text-align: center;}
+#footer a{display: block;
+text-decoration: none;
+color: black;
+padding: 0px;
+background-color: #cfc91d;
+margin-left: 570px;
+margin-right: 570px;
+font-size: 11pt;
+font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
